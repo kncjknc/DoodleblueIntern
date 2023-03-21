@@ -1,2 +1,0 @@
-# DoodleblueIntern
-Daily Tsks
