@@ -14,7 +14,9 @@ public class Button_Phone {
 		// TODO Auto-generated method stub
 
 		Button_Phone nokia = new Button_Phone();
+		nokia.call();
 		Button_Phone karbonn = new Button_Phone();
+		karbonn.simSlat();
 
 	}
 
