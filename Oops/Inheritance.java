@@ -1,6 +1,6 @@
- //Inheritance
+ // Inheritance
 	
-//	an object of one class behaving as an object of another class too.
+// An object of one class behaving as an object of another class too.
 	
 // Button Phone is Parent Class
 
@@ -84,4 +84,80 @@ public class Smart_Phone extends Button_Phone {
 
 }
 
+// The End Of Single Inheritance 
 
+// Start the Multilevel Inheritance
+
+package Inheritance;
+
+public class Tabl extends Smart_Phone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Tabl macTab = new Tabl();
+
+		macTab.call();
+		macTab.ringtone();
+		macTab.simSlat();
+
+	}
+
+	void screen() {
+		System.out.println("Screen is Very Big");
+	}
+
+}
+
+------------------------------------------------------------------------------------------------------------------
+
+// Hierarchical Inheritance
+	
+// Parent Of Hierarchical
+	
+package Inheritance;
+
+public class Mess {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Making Food");
+
+	}
+
+}
+
+// First Child
+
+
+package Inheritance;
+
+public class Veg extends Mess {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Only Vegtables food should be Provided");
+
+	}
+
+}
+
+// Second Child
+
+package Inheritance;
+
+public class NonVeg extends Mess {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Serves Veg and NonVeg Foods");
+
+	}
+
+}
+
+
+// Multiple and Hybrid Inheritance is Supported through interface only. 
