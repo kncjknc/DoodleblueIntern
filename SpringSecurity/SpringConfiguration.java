@@ -41,7 +41,7 @@ public class SecurityConfigure {
 		UserDetails user = User.withUsername("raj")
 				.password(encoder.encode("PWD3")).
 				roles("USER").build();
-		return new InMemoryUserDetailsManager(admin,hr);
+		return new InMemoryUserDetailsManager(admin,hr,user);
 		
 		//return new UserInfoService();
 	}
