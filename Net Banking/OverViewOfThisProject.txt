@@ -1,0 +1,17 @@
+
+Project : Net Banking
+
+      This Project is about managing Net Banking Details in Secured Way. 
+      Customers can add Account, TransactionBetWeenCustomers, BalanceEnquiry,
+      DepositMoney. Further, data security achived through spring security provide authentication and authorization to access data.
+
+Roles & Responsiblities
+       -> Created Service Class to write Bussiness Logic.
+       -> Created APIs in Controller Class.
+       -> Implemented Spring Security.
+
+Description 
+First i created Three entities(Bank,Transaction,UsersLogin) this also our three tables in our DataBase
+And created seprate service classes to write Bussiness Logic.
+And also created ModelClasses(BankModel, TransactionModel, UsersModel, EnquiryModel) using for response entities.
+Created seprate Respositories to Communicate with DB and Created Controller class to assign endpoints for the methods.
