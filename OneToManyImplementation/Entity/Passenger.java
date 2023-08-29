@@ -1,7 +1,7 @@
 package PassengerVSTickets.entity;
 
 import java.util.List;
-
+hi jiiii
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
